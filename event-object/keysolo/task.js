@@ -21,6 +21,7 @@ class Game {
       let currentSymbol = this.currentSymbol.textContent;
       if(String(e.key.toUpperCase()) === String(currentSymbol.toUpperCase())) {
         this.success();
+        
         /*
         можно сократить код, yбрав ф-ю this.success() полностью:
         объявить глобально word

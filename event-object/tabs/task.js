@@ -13,5 +13,6 @@ for (let n = 0; n < tabs.length; n++) {
 
         tabs[n].classList.add('tab_active');
         contents[n].classList.add('tab__content_active');
+        
     });
 }
