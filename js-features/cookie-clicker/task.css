@@ -1,0 +1,15 @@
+.content {
+    border: 2px solid black;
+}
+
+.card {
+    display:flex;
+    justify-content: center;
+    
+    
+}
+
+.clicker__cookie {
+    border-radius: 80%;
+    border: 2px solid black;
+}
