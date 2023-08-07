@@ -12,8 +12,8 @@ for (let i = 0; i < links.length; i++) {
     
     links[i].addEventListener('click', (event) => {
         event.preventDefault();
-        
         links[i].closest('.dropdown').firstElementChild.innerText  = event.target.innerText;
+        links[i].closest('.dropdown__list').classList.remove('dropdown__list_active');
     });
     
 }
