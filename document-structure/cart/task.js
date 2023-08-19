@@ -39,7 +39,9 @@ for (let product of products) {
             });
 
             if (productInCart) {
-                productInCart.querySelector('.cart__product-count').innerText++;
+                productInCart.querySelector('.cart__product-count').innerText = 
+                Number(productInCart.querySelector('.cart__product-count').innerText) +
+                Number(product.querySelector('.product__quantity-value').innerText);
             } else {
                 createCart();
             }
